@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+permalink: /kiavi-deal-calculator/
+title: "Kiavi Deal Calculator: Max Offer, Loan Sizing & Flip Profit (Free)"
+description: "Free fix-and-flip deal calculator built around Kiavi's loan math: 95% LTC and 80% ARV ceilings, the 70% rule max offer, cash-to-close, and projected profit."
+---
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Kiavi Deal Calculator",
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Web",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "url": "{{ site.url }}/kiavi-deal-calculator/"
+}
+</script>
+{% endblock %}
+<article class="page-body">
+  <div class="container">
+    <h1>Kiavi Deal Calculator</h1>
+    <p class="lede">Enter three numbers from your deal. The calculator applies Kiavi's typical loan ceilings (95% loan-to-cost, 80% of ARV), the classic 70% rule, and a realistic cost stack to show your max loan, cash to close, and projected profit.</p>
+
+    <div class="calc" id="calc">
+      <label for="purchase">Purchase price ($)</label>
+      <input type="number" id="purchase" value="200000" min="0" step="1000">
+      <label for="rehab">Rehab budget ($)</label>
+      <input type="number" id="rehab" value="50000" min="0" step="1000">
+      <label for="arv">After-repair value — ARV ($)</label>
+      <input type="number" id="arv" value="330000" min="0" step="1000">
+      <label for="months">Expected hold (months)</label>
+      <input type="number" id="months" value="8" min="1" max="24" step="1">
+      <label for="rate">Interest rate (%)</label>
+      <input type="number" id="rate" value="10" min="0" max="20" step="0.125">
+
+      <div class="calc-results" id="results" aria-live="polite"></div>
+      <p class="fineprint">Estimates only, using typical Kiavi maximums (95% LTC / 80% ARV), 2 origination points, ~8% selling costs, and interest on the full loan for the hold period. Your actual leverage and pricing depend on experience, credit, and the property — <a href="{{ site.affiliateLink }}" rel="sponsored noopener" target="_blank">get a real quote</a> (soft pull, minutes).</p>
+    </div>
+
+    <h2>How to read the results</h2>
+    <ul>
+      <li><strong>Max Kiavi loan</strong> — the lower of 95% of your total cost and 80% of ARV. Whichever ceiling binds tells you what kind of deal you have: ARV-bound deals are thin.</li>
+      <li><strong>Cash to close</strong> — your cost gap plus points. Rehab is financed but drawn as reimbursement, so keep reserves for the first stage of work (<a href="/kiavi-fix-and-flip/">how draws work</a>).</li>
+      <li><strong>70% rule max offer</strong> — the old-school screen: 70% of ARV minus rehab. If your purchase price is above it, the calculator flags it; plenty of good deals break the 70% rule in expensive markets, but know you're breaking it.</li>
+      <li><strong>Projected profit</strong> — ARV minus every cost in the stack. If this number doesn't survive a 10% ARV haircut, pass.</li>
+    </ul>
+
+    {% include "partials/cta.njk" %}
+
+    <h2>Pair it with Kiavi's ARV estimator</h2>
+    <p>Your ARV input is the whole game. Kiavi's free <a href="/faqs/what-is-kiavi-arv-estimator/">ARV estimator</a> predicts post-renovation value from its underwriting models — use it to sanity-check your comps before you trust the profit number here. Then check the <a href="/kiavi-requirements/">requirements</a> and <a href="/kiavi-rates/">current rates</a>.</p>
+  </div>
+</article>
+<script src="/assets/js/deal-calculator.js" defer></script>

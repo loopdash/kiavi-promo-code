@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script defer data-domain="{{ site.plausibleDomain }}" src="{{ site.plausibleSrc }}"></script>
+  {% block schema %}{% endblock %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/">Kiavi<span>PromoCode</span>.com</a>
+      <nav class="site-nav">
+        <a href="/kiavi-review/">Review</a>
+        <a href="/kiavi-rates/">Rates</a>
+        <a href="/kiavi-requirements/">Requirements</a>
+        <a href="/kiavi-vs/">Compare</a>
+        <a href="/kiavi-deal-calculator/">Calculator</a>
+        <a href="/faqs/">FAQs</a>
+        <a class="nav-cta" href="{{ site.affiliateLink }}" rel="sponsored noopener" target="_blank">Claim {{ site.offerAmount }}</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <section class="footer-cta">
+    <div class="container">
+      <h2>Ready to get {{ site.offerAmount }} from Kiavi?</h2>
+      <p>Start your application through our partner link and the {{ site.offerAmount }} new-customer bonus attaches automatically — no code to enter.</p>
+      <a class="btn btn-primary" href="{{ site.affiliateLink }}" rel="sponsored noopener" target="_blank">Get Pre-Qualified &amp; Claim {{ site.offerAmount }}</a>
+      <p class="fineprint">Paid after your first qualified loan closes. New Kiavi customers only.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <a href="/kiavi-review/">Kiavi Review</a>
+        <a href="/kiavi-rates/">Rates</a>
+        <a href="/kiavi-requirements/">Requirements</a>
+        <a href="/kiavi-dscr-loans/">DSCR Loans</a>
+        <a href="/kiavi-fix-and-flip/">Fix &amp; Flip</a>
+        <a href="/kiavi-vs/">Kiavi vs. Competitors</a>
+        <a href="/kiavi-deal-calculator/">Deal Calculator</a>
+        <a href="/faqs/">FAQs</a>
+        <a href="/disclosure/">Affiliate Disclosure</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+      <p class="disclosure-note">KiaviPromoCode.com is an independent site and is not owned by or affiliated with Kiavi Funding, Inc. beyond participation in its affiliate program. We earn a commission when you close a loan through our links — that's how we keep this site free. Kiavi, NMLS ID #1125207. Rates, terms, and offers are set by Kiavi and change without notice; verify everything directly with Kiavi before relying on it. This site is information, not financial advice.</p>
+      <p class="copyright">&copy; {% year %} KiaviPromoCode.com</p>
+    </div>
+  </footer>
+</body>
+</html>

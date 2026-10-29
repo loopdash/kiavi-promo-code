@@ -1,0 +1,97 @@
+[
+  {
+    "slug": "groundfloor",
+    "name": "Groundfloor",
+    "title": "Kiavi vs. Groundfloor",
+    "summary": "Groundfloor is a crowdfunded hard money lender known for low minimum loan amounts and deferred payments; Kiavi is the volume leader with faster institutional-grade closings and a full rental (DSCR) product line.",
+    "rows": {
+      "Best for": ["High-volume flippers and investors who also need DSCR rental loans", "Smaller first deals and borrowers who want deferred monthly payments"],
+      "Fix-and-flip rates (typical)": ["~7.75%–12%", "~9.5%–15%+ (varies by loan grade)"],
+      "Max LTC / ARV": ["Up to 95% LTC / 80% ARV", "Up to 100% LTC on some loans / ~75% ARV"],
+      "Loan sizes": ["~$100K–$3M", "~$75K–$1.5M"],
+      "DSCR 30-year rental loans": ["Yes", "No dedicated 30-year DSCR product"],
+      "Income verification": ["No W-2 or income docs on bridge loans", "No income docs"],
+      "Typical close speed": ["As fast as ~7–10 business days", "~2–4 weeks"],
+      "New-customer offer": ["$350 cash after first closed loan via referral link", "None advertised"]
+    },
+    "kiaviWins": "Scale and speed. Kiavi funded more fix-and-flip volume than any US lender in 2024, closes in days rather than weeks, and keeps you in one ecosystem when a flip turns into a rental (bridge to 30-year DSCR). Pricing at the low end of the hard-money range for experienced borrowers.",
+    "theyWin": "Smaller deals and payment flexibility. Groundfloor's minimums are lower, it can defer monthly payments until payoff, and it occasionally funds up to 100% of costs on strong deals — useful if cash is the constraint on your first flip.",
+    "verdict": "Pick Kiavi if you want the fastest close, competitive experienced-investor pricing, and a lender that can carry you from flip to rental. Pick Groundfloor for a small first deal where deferred payments matter more than speed."
+  },
+  {
+    "slug": "lima-one-capital",
+    "name": "Lima One Capital",
+    "title": "Kiavi vs. Lima One Capital",
+    "summary": "Both are national, institutionally backed lenders for residential investors. Lima One (a MFA Financial company) is strong on new construction and multifamily; Kiavi leads on fix-and-flip volume, speed, and a tech-first application.",
+    "rows": {
+      "Best for": ["Fix-and-flip and DSCR rental at speed, tech-first process", "New construction and multifamily value-add projects"],
+      "Fix-and-flip rates (typical)": ["~7.75%–12%", "~9%–12.5%"],
+      "Max LTC / ARV": ["Up to 95% LTC / 80% ARV", "Up to 92.5% LTC / 75% ARV"],
+      "New construction loans": ["Yes (launched 2025)", "Yes — long-standing specialty"],
+      "Multifamily bridge": ["No (1–4 unit residential focus)", "Yes, 5+ units"],
+      "DSCR 30-year rental loans": ["Yes", "Yes"],
+      "Typical close speed": ["As fast as ~7–10 business days", "~2–3 weeks"],
+      "New-customer offer": ["$350 cash after first closed loan via referral link", "None advertised"]
+    },
+    "kiaviWins": "Speed and simplicity on 1–4 unit deals. The application is online end-to-end, bridge loans skip income verification entirely, and experienced flippers get the most competitive pricing tier in the space.",
+    "theyWin": "Project breadth. Lima One goes where Kiavi doesn't: ground-up construction at scale and 5+ unit multifamily. If your pipeline includes apartment buildings, you'll need a lender like Lima One anyway.",
+    "verdict": "For 1–4 unit flips and rentals, Kiavi is faster and usually cheaper. For multifamily or heavy ground-up construction, Lima One's product set is the better fit."
+  },
+  {
+    "slug": "rcn-capital",
+    "name": "RCN Capital",
+    "title": "Kiavi vs. RCN Capital",
+    "summary": "RCN Capital is a wholesale-friendly national private lender with a broad box; Kiavi is a direct, tech-driven lender with the largest fix-and-flip volume in the country.",
+    "rows": {
+      "Best for": ["Direct borrowers who want the fastest online process", "Broker-sourced deals and borrowers who like negotiating terms"],
+      "Fix-and-flip rates (typical)": ["~7.75%–12%", "~9.5%–12.5%"],
+      "Max LTC / ARV": ["Up to 95% LTC / 80% ARV", "Up to 90% LTC / 75% ARV"],
+      "Loan sizes": ["~$100K–$3M", "~$50K–$3M"],
+      "DSCR 30-year rental loans": ["Yes", "Yes"],
+      "Broker program": ["Yes", "Yes — core of the business"],
+      "Typical close speed": ["As fast as ~7–10 business days", "~2–3 weeks"],
+      "New-customer offer": ["$350 cash after first closed loan via referral link", "None advertised"]
+    },
+    "kiaviWins": "Borrower experience and leverage. Higher max LTC/ARV, a fully online process with instant soft-quote pricing, and no income docs on bridge loans. Kiavi's 2024 origination volume was more than triple any competitor's.",
+    "theyWin": "Flexibility at the margins. RCN's minimum loan size is lower ($50K), and as a wholesale-first shop it can be more negotiable on unusual deals that don't fit a standardized box.",
+    "verdict": "Most direct borrowers get better leverage, speed, and pricing at Kiavi. RCN makes sense for sub-$100K properties or if you work through a broker who has pull there."
+  },
+  {
+    "slug": "upright",
+    "name": "Upright (Fund That Flip)",
+    "title": "Kiavi vs. Upright (formerly Fund That Flip)",
+    "summary": "Upright (rebranded from Fund That Flip in 2023) pairs hard money lending with a passive-investor funding marketplace; Kiavi is a pure direct lender with institutional capital and bigger scale.",
+    "rows": {
+      "Best for": ["Investors who want the biggest, fastest direct lender", "Experienced flippers in Upright's regional strongholds (Midwest/Northeast)"],
+      "Fix-and-flip rates (typical)": ["~7.75%–12%", "~9.99%+"],
+      "Max LTC / ARV": ["Up to 95% LTC / 80% ARV", "Up to ~95% LTC / 70% ARV"],
+      "Experience requirement": ["None — new investors eligible (pricing tiers by exits)", "Generally requires prior completed flips"],
+      "DSCR 30-year rental loans": ["Yes", "Limited"],
+      "Geographic coverage": ["~49 states + DC (not UT)", "~30 states, strongest in Midwest/Northeast"],
+      "Typical close speed": ["As fast as ~7–10 business days", "~7–14 days"],
+      "New-customer offer": ["$350 cash after first closed loan via referral link", "None advertised"]
+    },
+    "kiaviWins": "Access and scale. Kiavi lends to first-time flippers, covers nearly every state, offers true 30-year DSCR takeout loans, and prices experienced borrowers aggressively because of its securitization-backed capital base.",
+    "theyWin": "Relationship lending for proven flippers. Upright's regional teams know their Midwest/Northeast markets deeply and can move quickly for repeat borrowers with a track record.",
+    "verdict": "Kiavi for national coverage, first-timers, and flip-to-rental strategies. Upright for experienced flippers already in its core markets who value a regional relationship."
+  },
+  {
+    "slug": "new-silver",
+    "name": "New Silver",
+    "title": "Kiavi vs. New Silver",
+    "summary": "New Silver is a fintech hard money lender known for instant online term sheets and crypto-adjacent funding rails; Kiavi is the category's volume leader with deeper products and cheaper experienced-investor pricing.",
+    "rows": {
+      "Best for": ["Volume flippers and BRRRR investors", "Fast online term sheets on smaller East Coast deals"],
+      "Fix-and-flip rates (typical)": ["~7.75%–12%", "~9.5%–11.25%"],
+      "Max LTC / ARV": ["Up to 95% LTC / 80% ARV", "Up to 100% of construction / ~92.5% LTC / 80% ARV"],
+      "Loan sizes": ["~$100K–$3M", "~$100K–$5M"],
+      "DSCR 30-year rental loans": ["Yes", "Yes"],
+      "Instant online term sheet": ["Yes — soft quote in minutes", "Yes — core feature"],
+      "Typical close speed": ["As fast as ~7–10 business days", "~5–10 days"],
+      "New-customer offer": ["$350 cash after first closed loan via referral link", "None advertised"]
+    },
+    "kiaviWins": "Pricing depth and proven scale. Experienced investors typically price lower at Kiavi, the DSCR product is more mature, and $30B+ in originations means underwriting rarely surprises you at the closing table.",
+    "theyWin": "Leverage on construction budgets. New Silver funds up to 100% of rehab/construction costs on qualifying deals and advertises slightly higher ARV limits, which can mean less cash in on heavy rehabs.",
+    "verdict": "Both are fast, online-first lenders. Kiavi usually wins on rate and product depth; New Silver is worth a term-sheet comparison on heavy-rehab deals where construction leverage drives your cash-to-close."
+  }
+]

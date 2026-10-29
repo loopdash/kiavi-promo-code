@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+permalink: /faqs/
+title: "Kiavi FAQs: Minimum Loan, Credit Score, Phone Number, Payoffs & More"
+description: "Straight answers to the most-searched Kiavi questions: is it legit, minimum loan amount, credit requirements, customer service, payoff requests, and the $350 bonus."
+---
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for f in faqs %}{
+      "@type": "Question",
+      "name": {{ f.question | dump | safe }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ f.answer | dump | safe }} }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endblock %}
+<article class="page-body">
+  <div class="container">
+    <h1>Kiavi FAQs</h1>
+    <p class="lede">Straight answers, kept current. Each question also has its own page you can link to.</p>
+
+    {% for f in faqs %}
+    <div class="faq-item">
+      <h2><a href="/faqs/{{ f.slug }}/">{{ f.question }}</a></h2>
+      <p>{{ f.answer }}</p>
+    </div>
+    {% endfor %}
+
+    {% include "partials/cta.njk" %}
+  </div>
+</article>

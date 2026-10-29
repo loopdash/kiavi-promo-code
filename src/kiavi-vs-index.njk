@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+permalink: /kiavi-vs/
+title: "Kiavi vs. Competitors 2026: Groundfloor, Lima One, RCN, Upright, New Silver"
+description: "Side-by-side comparison of Kiavi against the top hard money lenders: rates, max leverage, loan sizes, DSCR products, speed, and who each lender is right for."
+---
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kiavi competitor comparisons",
+  "itemListElement": [
+    {% for c in competitors %}{ "@type": "ListItem", "position": {{ loop.index }}, "name": "{{ c.title }}", "url": "{{ site.url }}/kiavi-vs/{{ c.slug }}/" }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endblock %}
+<article class="page-body">
+  <div class="container">
+    <h1>Kiavi vs. the Competition</h1>
+    <p class="lede">Kiavi is the biggest fix-and-flip lender in the US, but biggest isn't always right for your deal. Here's how it compares to the other national hard money lenders — and when each one wins.</p>
+
+    <h2>The quick chart</h2>
+    <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th>Lender</th><th>Fix-and-flip rates</th><th>Max LTC / ARV</th><th>30-yr DSCR</th><th>Best for</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Kiavi</strong></td><td>~7.75%–12%</td><td>95% / 80%</td><td>Yes</td><td>Speed, scale, flip-to-rental, experienced-investor pricing</td></tr>
+        <tr><td><a href="/kiavi-vs/groundfloor/">Groundfloor</a></td><td>~9.5%–15%+</td><td>100% / 75%</td><td>No</td><td>Small first deals, deferred payments</td></tr>
+        <tr><td><a href="/kiavi-vs/lima-one-capital/">Lima One Capital</a></td><td>~9%–12.5%</td><td>92.5% / 75%</td><td>Yes</td><td>New construction, 5+ unit multifamily</td></tr>
+        <tr><td><a href="/kiavi-vs/rcn-capital/">RCN Capital</a></td><td>~9.5%–12.5%</td><td>90% / 75%</td><td>Yes</td><td>Sub-$100K deals, broker relationships</td></tr>
+        <tr><td><a href="/kiavi-vs/upright/">Upright (Fund That Flip)</a></td><td>~9.99%+</td><td>95% / 70%</td><td>Limited</td><td>Proven flippers in Midwest/Northeast</td></tr>
+        <tr><td><a href="/kiavi-vs/new-silver/">New Silver</a></td><td>~9.5%–11.25%</td><td>92.5% / 80%</td><td>Yes</td><td>Heavy-rehab construction leverage</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="fineprint">Typical published/observed ranges as of late 2026; every lender prices per deal. Click through for the full head-to-head.</p>
+
+    {% include "partials/cta.njk" %}
+
+    <h2>Head-to-head breakdowns</h2>
+    <div class="card-grid">
+      {% for c in competitors %}
+      <div class="card">
+        <h3><a href="/kiavi-vs/{{ c.slug }}/">{{ c.title }}</a></h3>
+        <p>{{ c.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h2>How we compare lenders</h2>
+    <p>Every page uses the same yardsticks: published rate ranges, maximum leverage (LTC and ARV), loan size limits, whether a true 30-year DSCR product exists, closing speed, and any new-customer incentive. Where lenders don't publish numbers, we use the ranges they quote publicly and flag them as typical. When Kiavi loses a category, the page says so. Start with our <a href="/kiavi-review/">full Kiavi review</a> if you want the baseline first.</p>
+  </div>
+</article>

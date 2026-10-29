@@ -1,0 +1,42 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: faqs
+  size: 1
+  alias: faq
+  addAllPagesToCollections: true
+permalink: "/faqs/{{ faq.slug }}/"
+eleventyComputed:
+  title: "{{ faq.question }} — Kiavi FAQ"
+  description: "{{ faq.answer | truncate(150) }}"
+---
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": {{ faq.question | dump | safe }},
+    "acceptedAnswer": { "@type": "Answer", "text": {{ faq.answer | dump | safe }} }
+  }]
+}
+</script>
+{% endblock %}
+<article class="page-body">
+  <div class="container">
+    <p class="crumbs"><a href="/">Home</a> › <a href="/faqs/">Kiavi FAQs</a></p>
+    <h1>{{ faq.question }}</h1>
+    <p class="lede">{{ faq.answer }}</p>
+
+    {% include "partials/cta.njk" %}
+
+    <h2>More Kiavi answers</h2>
+    <ul>
+      {% for f in faqs %}{% if f.slug != faq.slug %}
+      <li><a href="/faqs/{{ f.slug }}/">{{ f.question }}</a></li>
+      {% endif %}{% endfor %}
+    </ul>
+    <p>Or go deeper: <a href="/kiavi-review/">full Kiavi review</a> · <a href="/kiavi-rates/">current rates</a> · <a href="/kiavi-requirements/">requirements</a> · <a href="/kiavi-deal-calculator/">deal calculator</a>.</p>
+  </div>
+</article>

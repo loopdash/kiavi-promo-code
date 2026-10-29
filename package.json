@@ -1,0 +1,16 @@
+{
+  "name": "kiavi-promo-code",
+  "version": "1.0.0",
+  "description": "kiavipromocode.com — Kiavi promo code / new-customer bonus microsite built with Eleventy",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

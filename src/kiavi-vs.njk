@@ -1,0 +1,63 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: competitors
+  size: 1
+  alias: comp
+  addAllPagesToCollections: true
+permalink: "/kiavi-vs/{{ comp.slug }}/"
+eleventyComputed:
+  title: "{{ comp.title }} (2026): Rates, Leverage & Which Lender Wins"
+  description: "{{ comp.summary }}"
+---
+{% block schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ comp.title }} (2026)",
+  "author": { "@type": "Organization", "name": "KiaviPromoCode.com" },
+  "mainEntityOfPage": "{{ site.url }}/kiavi-vs/{{ comp.slug }}/"
+}
+</script>
+{% endblock %}
+<article class="page-body">
+  <div class="container">
+    <p class="crumbs"><a href="/">Home</a> › <a href="/kiavi-vs/">Kiavi vs. Competitors</a> › {{ comp.name }}</p>
+    <h1>{{ comp.title }}</h1>
+    <p class="lede">{{ comp.summary }}</p>
+
+    <h2>Side by side</h2>
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th></th><th>Kiavi</th><th>{{ comp.name }}</th></tr></thead>
+      <tbody>
+        {% for label, pair in comp.rows %}
+        <tr><td><strong>{{ label }}</strong></td><td>{{ pair[0] }}</td><td>{{ pair[1] }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
+    <p class="fineprint">Typical terms as of late 2026; both lenders price per deal and change terms without notice.</p>
+
+    <h2>Where Kiavi wins</h2>
+    <p>{{ comp.kiaviWins }}</p>
+
+    <h2>Where {{ comp.name }} wins</h2>
+    <p>{{ comp.theyWin }}</p>
+
+    {% include "partials/cta.njk" %}
+
+    <h2>Bottom line</h2>
+    <p>{{ comp.verdict }}</p>
+
+    <h2>More comparisons</h2>
+    <ul>
+      {% for c in competitors %}{% if c.slug != comp.slug %}
+      <li><a href="/kiavi-vs/{{ c.slug }}/">{{ c.title }}</a></li>
+      {% endif %}{% endfor %}
+      <li><a href="/kiavi-vs/">Full comparison chart</a></li>
+      <li><a href="/kiavi-review/">Our complete Kiavi review</a></li>
+    </ul>
+  </div>
+</article>
