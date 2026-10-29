@@ -1,0 +1,164 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "12.9778 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10291545-2098-0121-0000-dcc3f387b049",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "12.9112 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "regular"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kiavi promo code",
+        "location_code": 2840,
+        "language_code": "en",
+        "depth": 10,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kiavi promo code",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kiavi%20promo%20code&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-29 15:45:39 +00:00",
+          "spell": {
+            "keyword": "kavu promo code",
+            "type": "did_you_mean"
+          },
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask"
+          ],
+          "se_results_count": 53,
+          "pages_count": 1,
+          "items_count": 9,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "domain": "google.com",
+              "title": "Kiavi",
+              "description": "We've got 300 million reasons to celebrate! We just closed our first rated securitization of residential transition loans for 2025 (our\u00a0...",
+              "url": "https://google.com/goto?url=CAESxgEB6zswFU1s8Ro3mYj8hQ4AyXeqa9Uv-e6BdkFbdjPWi8lD_MMm_V1S41ufJUg-5QEUDrKK7lZ5tetRZbN28HRN-dhQdv6crEmAfKoHWRCTcjO6tBK3MPpLDQ09MOqsLqzNUlu5oZjtbXBCtzjvwnXyXqtJdaVLypMNm6nv79_-iAUy_OP3fgBX8XbeTV3wSqJP0H5w7RO4McOaoTETlwUGPYWbZcRQY5So5xBZCljPrKx0ofRXtO_uGtAkT8KN0V09IT9n7SM",
+              "breadcrumb": "6 reactions  \u00b7  1 year ago"
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "domain": "www.prnewswire.com",
+              "title": "Kiavi Launches Construction Financing for Real Estate ...",
+              "description": "Apr 8, 2024 \u2014 Kiavi, a leading provider of capital to residential real estate investors, For more information, visit www.kiavi.com.",
+              "url": "https://www.prnewswire.com/news-releases/kiavi-launches-construction-financing-for-real-estate-investors-302109743.html",
+              "breadcrumb": "https://www.prnewswire.com \u203a news-releases \u203a kiavi-lau..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "domain": "www.instagram.com",
+              "title": "Guess what?  Kiavi is growing fast, and we're hiring! As a ...",
+              "description": "Guess what? Kiavi is growing fast, and we're hiring! As a remote-first company, we pride ourselves on: \u21e2 Competitive Pay and Equity",
+              "url": "https://www.instagram.com/reel/DCMR6zio9Lf/",
+              "breadcrumb": "10+ likes  \u00b7  1 year ago"
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "domain": "google.com",
+              "title": "Kiavi, A Lender To Residential Real Estate Investors ...",
+              "description": "Aug 14, 2024 \u2014 Is offering up to $556,850.00 USD under Section 4(a)(6)/Reg CF SAFE at $1.00 USD each on Wefunder Portal LLC Closing on April 30, 2027",
+              "url": "https://google.com/goto?url=CAES1QEB6zswFWokRlunkNs9Yu_FRDp_M0WTdtbMlFGo91vtDqnwocMCF4pvpYa_7PNfZlO36QcvxYtxVsTaVxOZ4hNJZKYEatylZOoW9Ymn_7TD86PeCyPVmKcXs19TUikC6PEGQza3WcvkHf9Oy00bzogOl5sCAEAUF8TWZnwAUttaV94SmhIdxPSI-1Wk2VLo1lyP7B_HSqlnKY14dBoBLm--1uKsk4RQ5jvjtPg-hrrgPCsz-eZMn8F0BCNugsRtepRmxousvpu2m05Kzt_j9AXNhX9K8tk",
+              "breadcrumb": "https://www.crowdfundinsider.com \u203a Global"
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "domain": "google.com",
+              "title": "Kiavi Review 2026: Fast Fix-and-Flip & DSCR Loans",
+              "description": "Kiavi offers 7-day closings on fix-and-flip loans and competitive DSCR rates from 7.25%. No application fees. Read our full lender review.",
+              "url": "https://google.com/goto?url=CAESZAHrOzAVl1BwvOnUQ1sgq-SbM3nvZBA8bChSz-BfqH_s5E3RUsSgxjzDnUfSFNc3HqT0opkvkhFs6CBKFjgTGXOspRzsRiXytirymiG52xan16gmYu_QSE4zhTvlkLzjtI3ibtU",
+              "breadcrumb": "https://reinvestorguide.com \u203a Lenders"
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "domain": "google.com",
+              "title": "Kiavi Funding, Inc - Trusted Lending Partner at Loan Factory",
+              "description": "Explore Kiavi Funding, Inc's reliable loan options through Loan Factory. Get detailed information on services, terms, and their expertise.",
+              "url": "https://google.com/goto?url=CAESgAEB6zswFXaE8eklIFct0jQhqK41LFF-cF7ssTMXFb3AED8Gw6HydX4v6yeyHHd28HeFKXYoxNB0tmKppWBms1YqCPis1TD0frq2jF7_2X_HnKSc0e6Ip72uHqtgiw04r5GjDWZdOMjFP8NTJ_kFBySqxeX5xe82etWk3mPyego8qA",
+              "breadcrumb": "https://www.loanfactory.com \u203a our-lenders \u203a kiavi-fund..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "domain": "www.facebook.com",
+              "title": "It's easier than ever to invest like a Pro! Real estate investors ...",
+              "description": "Real estate investors with 3 or more exits in 24 months can now unlock access to Kiavi's Pro benefits. \u21e2 Personalized pricing with up to 95%\u00a0...",
+              "url": "https://www.facebook.com/kiavifunding/videos/its-easier-than-ever-to-invest-like-a-pro-real-estate-investors-with-3-or-more-e/652580650769223/",
+              "breadcrumb": "1 reaction  \u00b7  1 year ago"
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "domain": "google.com",
+              "title": "Big news for our Kiavi community! Consistency is key when it ...",
+              "description": "Big news for our Kiavi community! Consistency is key when it comes to real estate investing. Following our record-breaking $7.8B in loan\u00a0...",
+              "url": "https://google.com/goto?url=CAESZgHrOzAVndUcfG7Y4KL08J5ZdU_pD8j0-VrRrUfNJYJ6qVGeDGlvIXohU-QoGEqwWi0gvbWm_dJdT8oIUxVRt8cwndE6fxTUdC5k7tcgR26XQPhJODVJpn2Rxwj-MgvsLDPgWGciLg",
+              "breadcrumb": "10+ likes  \u00b7  7 months ago"
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "domain": "www.lendver.com",
+              "title": "KIAVI | LendVer | Create your free lender listing and get ...",
+              "description": "Kiavi's New Construction & Infill loan program offers interest\u2011only financing with rates as low as 9.00%, loans from $150K to $10MM, and up to 85% of total\u00a0... Read more",
+              "url": "https://www.lendver.com/tag/kiavi/",
+              "breadcrumb": "https://www.lendver.com \u203a tag \u203a kiavi"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

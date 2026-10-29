@@ -1,0 +1,160 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.0745 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10291545-2098-0121-0000-3d93c37e2d30",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.0302 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "regular"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kiavi referral program",
+        "location_code": 2840,
+        "language_code": "en",
+        "depth": 10,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "kiavi referral program",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=kiavi%20referral%20program&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-10-29 15:45:43 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic"
+          ],
+          "se_results_count": 72,
+          "pages_count": 1,
+          "items_count": 9,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "Webinar | Early 2025 Insights Replay Sign-Up",
+              "description": "Refer-A-Friend Share Kiavi with your network and you both could get rewarded when they close refer and earn rewards Refer and Earn Rewards (844) 415-4663 (888)\u00a0...",
+              "url": "https://www.kiavi.com/webinar/early-2025-insights-replay-sign-up",
+              "breadcrumb": "https://www.kiavi.com \u203a webinar \u203a early-2025-insights-..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "Helping Your Clients Streamline and Scale Their Rental ...",
+              "description": "Refer A Friend Sign In See Your Rate Helping Your Clients Streamline and Scale Their Rental Portfolios On-demand access\u2014join anytime, from anywhere! (888) 819-\u00a0...",
+              "url": "https://www.kiavi.com/webinar/helping-your-clients-streamline-and-scale-their-rental-portfolios",
+              "breadcrumb": "https://www.kiavi.com \u203a webinar \u203a helping-your-clients..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "Let's Meet! Getting to Know Your Lender",
+              "description": "Jul 31, 2023 \u2014 Refer-A-Friend Share Kiavi with your network and you both could get rewarded when they close refer and earn rewards Refer and Earn Rewards to\u00a0...",
+              "url": "https://www.kiavi.com/blog/lets-meet-getting-to-know-your-lender",
+              "breadcrumb": "https://www.kiavi.com \u203a blog \u203a lets-meet-getting-to-kn..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "Brennan Halliday",
+              "description": "Mar 12, 2026 \u2014 Refer-A-Friend Share Kiavi with your network and you both could get rewarded when they close refer and earn rewards (844) 415-4663",
+              "url": "https://www.kiavi.com/blog/author/brennan-halliday",
+              "breadcrumb": "https://www.kiavi.com \u203a blog \u203a author \u203a brennan-hallid..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "4 Strategic Financing Tips for Real Estate Investors",
+              "description": "Mar 13, 2023 \u2014 Turn your influence into revenue with our partnership program built for REIAs, Masterminds, and PropTech Affiliate Program connecting investors\u00a0...",
+              "url": "https://www.kiavi.com/blog/strategic-financing-tips-for-real-estate-investors",
+              "breadcrumb": "https://www.kiavi.com \u203a blog \u203a strategic-financing-tips-..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "Break Barriers in Real Estate: Unconventional Financing ...",
+              "description": "Aug 4, 2023 \u2014 Know a real estate investor? Refer them to Kiavi and you both could earn rewards at closing. (415) 964-4975 \u2026 s Affiliate Program Refer-A-\u00a0...",
+              "url": "https://www.kiavi.com/blog/break-barriers-in-real-estate-unconventional-financing-methods-explored",
+              "breadcrumb": "https://www.kiavi.com \u203a blog \u203a break-barriers-in-real-e..."
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "IMN EAST 2021 Recap",
+              "description": "Aug 31, 2021 \u2014 Turn your influence into revenue with our partnership program built for REIAs, Masterminds, and PropTech Affiliate Program. Refer-A-Friend\u00a0...",
+              "url": "https://www.kiavi.com/blog/imneast",
+              "breadcrumb": "https://www.kiavi.com \u203a blog \u203a imneast"
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "Fix and Flip Loans",
+              "description": "Kiavi Funding, LLC. Menu Refer A Friend Sign In (888) 819-6388. Toll Free Telephone: 1 (844) 415-4663 Servicing Telephone: 1 (415) 964-4975 \u2026 s Affiliate \u00a0...",
+              "url": "https://www.kiavi.com/local/fix-and-flip",
+              "breadcrumb": "https://www.kiavi.com \u203a local \u203a fix-and-flip"
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "domain": "www.kiavi.com",
+              "title": "How Leverage Gives You an Advantage When Financing ...",
+              "description": "Mar 8, 2023 \u2014 Refer them to Kiavi and you both could earn rewards at closing. ... Affiliate Program \u00b7 Refer-A-Friend \u00b7 Real Estate Agents Who Invest \u00b7 Real\u00a0... Read more",
+              "url": "https://www.kiavi.com/blog/how-financing-an-investment-property-gives-you-leverage-in-the-real-estate-market",
+              "breadcrumb": "https://www.kiavi.com \u203a blog \u203a how-financing-an-inves..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
