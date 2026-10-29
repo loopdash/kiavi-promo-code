@@ -1,4 +1,11 @@
+import { HtmlBasePlugin } from "@11ty/eleventy";
+
 export default function (eleventyConfig) {
+  // Rewrites root-relative hrefs/srcs when built with --pathprefix, so the
+  // site works at loopdash.github.io/kiavi-promo-code/ until the custom
+  // domain is attached. No-op at the default prefix "/".
+  eleventyConfig.addPlugin(HtmlBasePlugin);
+
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
